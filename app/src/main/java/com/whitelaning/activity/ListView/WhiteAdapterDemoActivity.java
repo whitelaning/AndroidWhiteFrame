@@ -42,7 +42,7 @@ public class WhiteAdapterDemoActivity extends BaseActivity {
 
     private void initView() {
         listView = (ListView) findViewById(R.id.listView);
-        whiteAdapterDemoAdapter = new WhiteAdapterDemoAdapter(this, R.layout.adapter_main, datas);
+        whiteAdapterDemoAdapter = new WhiteAdapterDemoAdapter(this, R.layout.adapter_white_adapter_demo, datas);
     }
 
     private void initListener() {
@@ -57,8 +57,9 @@ public class WhiteAdapterDemoActivity extends BaseActivity {
     }
 
     private void testData() {
+        String time = new Date() + "";
         for (int i = 1; i < 20; i++) {
-            datas.add(new Bean("Title - " + i, "Content - " + i, "" + new Date()));
+            datas.add(new Bean("Title - " + i, "Content - " + i, time));
         }
     }
 }
