@@ -1,3 +1,10 @@
+Hi, I am Zack.<br>
+Name: Zack White<br>
+City: Guangdong, Guangzhou<br>
+Pseudonym: Whitelaning / Newchapter<br>
+Email:whitelaning@qq.com / whitelaning@gmail.com<br><br>
+It's very easy to be different but very difficult to be better.
+
 # AndroidWhiteFrame
 这是我的结构框架
 用于记录我的工具类和示例代码
