@@ -9,7 +9,7 @@ It's very easy to be different but very difficult to be better.
 这是我的结构框架
 用于记录我的工具类和示例代码
 
-实例代码：
+####实例代码：<br>
 1.WhiteAdapterDemoActivity ： 一个ViewHolder的封装示例，把每次BaseAdapater都要写的内部类ViewHolder进行的封装，之后基本不需要写ViewHolder。(201505071032）
 
 
