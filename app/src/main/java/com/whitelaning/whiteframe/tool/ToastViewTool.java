@@ -35,6 +35,4 @@ public class ToastViewTool {
         toast.setGravity(Gravity.CENTER, 0, 0);//设置居中
         toast.show();
     }
-
-
 }

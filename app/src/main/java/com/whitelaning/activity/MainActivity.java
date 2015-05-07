@@ -18,6 +18,7 @@ public class MainActivity extends BaseActivity {
     private ListView listView;
     private MainAdapter mainAdapter;
 
+
     public static void startActivity(Activity activity) {
         Intent intent = new Intent(activity, MainActivity.class);
         activity.startActivityForResult(intent, 0);
@@ -32,7 +33,9 @@ public class MainActivity extends BaseActivity {
     }
 
     private void initData() {
+        list.add(new ClassBean("TestActivity", TestActivity.class));
         list.add(new ClassBean("封装BaseAdapter的ViewHolder", WhiteAdapterDemoActivity.class));
+        list.add(new ClassBean("用UrlQuerySanitizer解析Url参数", UrlQuerySanitizerActivity.class));
     }
 
     private void initView() {

@@ -28,6 +28,14 @@
             android:name="com.whitelaning.activity.ListViewActivity"
             android:label="@string/title_activity_list_view" >
         </activity>
+        <activity
+            android:name="com.whitelaning.activity.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.whitelaning.activity.UrlQuerySanitizerActivity"
+            android:label="@string/title_activity_url_query_sanitizer" >
+        </activity>
     </application>
 
 </manifest>
