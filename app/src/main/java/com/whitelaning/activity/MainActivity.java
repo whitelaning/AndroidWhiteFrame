@@ -36,6 +36,7 @@ public class MainActivity extends BaseActivity {
         list.add(new ClassBean("TestActivity", TestActivity.class));
         list.add(new ClassBean("封装BaseAdapter的ViewHolder", WhiteAdapterDemoActivity.class));
         list.add(new ClassBean("用UrlQuerySanitizer解析Url参数", UrlQuerySanitizerActivity.class));
+        list.add(new ClassBean("官方推荐DialogFragment创建对话框", DialogFragmentActivity.class));
     }
 
     private void initView() {

@@ -14,6 +14,7 @@
     <string name="tips">Tips</string>
     <string name="title_activity_test">TestActivity</string>
     <string name="title_activity_url_query_sanitizer">UrlQuerySanitizerActivity</string>
+    <string name="title_activity_dialog_fragment">DialogFragmentActivity</string>
 
 
 </resources>

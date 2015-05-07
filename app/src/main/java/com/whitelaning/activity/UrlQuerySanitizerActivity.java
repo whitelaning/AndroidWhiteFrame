@@ -1,16 +1,16 @@
 package com.whitelaning.activity;
 
-import android.app.Activity;
 import android.net.UrlQuerySanitizer;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import com.whitelaning.whiteframe.R;
+import com.whitelaning.whiteframe.activity.BaseActivity;
 
 /**
  * 解析Url地址的参数
  */
-public class UrlQuerySanitizerActivity extends Activity {
+public class UrlQuerySanitizerActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -36,6 +36,10 @@
             android:name="com.whitelaning.activity.UrlQuerySanitizerActivity"
             android:label="@string/title_activity_url_query_sanitizer" >
         </activity>
+        <activity
+            android:name="com.whitelaning.activity.DialogFragmentActivity"
+            android:label="@string/title_activity_dialog_fragment" >
+        </activity>
     </application>
 
 </manifest>
