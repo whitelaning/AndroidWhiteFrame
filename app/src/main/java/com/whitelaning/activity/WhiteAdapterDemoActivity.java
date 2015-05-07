@@ -1,4 +1,4 @@
-package com.whitelaning.activity.ListView;
+package com.whitelaning.activity;
 
 import android.app.Activity;
 import android.content.Intent;

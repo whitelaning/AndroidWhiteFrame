@@ -4,10 +4,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
+
 import com.whitelaning.adapter.MainAdapter;
 import com.whitelaning.bean.ClassBean;
 import com.whitelaning.whiteframe.R;
 import com.whitelaning.whiteframe.activity.BaseActivity;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,7 +32,7 @@ public class MainActivity extends BaseActivity {
     }
 
     private void initData() {
-        list.add(new ClassBean("（列表视图）List View", ListViewActivity.class));
+        list.add(new ClassBean("封装BaseAdapter的ViewHolder", WhiteAdapterDemoActivity.class));
     }
 
     private void initView() {

@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.whitelaning.activity.ListView.WhiteAdapterDemoActivity"
+            android:name="com.whitelaning.activity.WhiteAdapterDemoActivity"
             android:label="@string/title_activity_white_adapter_demo" >
         </activity>
         <activity
