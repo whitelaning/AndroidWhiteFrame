@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.whitelaning.bean.ClassBean;
 import com.whitelaning.whiteframe.R;
@@ -26,6 +27,7 @@ public class MainAdapter extends WhiteAdapter {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                new Toast(context).makeText(context,bean.getTitle(),Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(context, bean.getmClass());
                 context.startActivity(intent);
             }

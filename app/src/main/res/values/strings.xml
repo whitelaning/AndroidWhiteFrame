@@ -1,20 +1,22 @@
 <resources>
     <string name="author">whitelaning</string>
     <string name="app_name">WhiteFrame</string>
-
-    <string name="welcome_back">Welcome back</string>
-    <string name="title_activity_white_adapter_demo">WhiteAdapterDemoActivity</string>
-
-    <string name="cancel">Cancel</string>
-    <string name="ensure">Ensure</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_list_view">ListViewActivity</string>
+    <!--  DialogView Start-->
+    <string name="welcome_back">Welcome back</string>
+    <string name="cancel">Cancel</string>
+    <string name="ensure">Ensure</string>
     <string name="tips">Tips</string>
+    <!--  DialogView End-->
+    <!-- title_activity Start-->
+    <string name="title_activity_white_adapter_demo">WhiteAdapterDemoActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
     <string name="title_activity_test">TestActivity</string>
     <string name="title_activity_url_query_sanitizer">UrlQuerySanitizerActivity</string>
     <string name="title_activity_dialog_fragment">DialogFragmentActivity</string>
-
+    <string name="title_activity_base_presenter">BasePresenterActivity</string>
+    <string name="title_activity_test_activity2">TestActivity2</string>
+    <!-- title_activity End-->
 
 </resources>

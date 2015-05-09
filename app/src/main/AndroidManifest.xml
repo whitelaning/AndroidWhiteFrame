@@ -25,11 +25,7 @@
             android:label="@string/title_activity_white_adapter_demo" >
         </activity>
         <activity
-            android:name="com.whitelaning.activity.ListViewActivity"
-            android:label="@string/title_activity_list_view" >
-        </activity>
-        <activity
-            android:name="com.whitelaning.activity.TestActivity"
+            android:name="com.whitelaning.test.TestActivity"
             android:label="@string/title_activity_test" >
         </activity>
         <activity
@@ -39,6 +35,10 @@
         <activity
             android:name="com.whitelaning.activity.DialogFragmentActivity"
             android:label="@string/title_activity_dialog_fragment" >
+        </activity>
+        <activity
+            android:name="com.whitelaning.test.Test2Activity"
+            android:label="@string/title_activity_test_activity2" >
         </activity>
     </application>
 

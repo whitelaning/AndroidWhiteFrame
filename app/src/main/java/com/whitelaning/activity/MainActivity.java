@@ -7,6 +7,8 @@ import android.widget.ListView;
 
 import com.whitelaning.adapter.MainAdapter;
 import com.whitelaning.bean.ClassBean;
+import com.whitelaning.test.Test2Activity;
+import com.whitelaning.test.TestActivity;
 import com.whitelaning.whiteframe.R;
 import com.whitelaning.whiteframe.activity.BaseActivity;
 
@@ -34,9 +36,10 @@ public class MainActivity extends BaseActivity {
 
     private void initData() {
         list.add(new ClassBean("TestActivity", TestActivity.class));
+        list.add(new ClassBean("Test2Activity", Test2Activity.class));
         list.add(new ClassBean("封装BaseAdapter的ViewHolder", WhiteAdapterDemoActivity.class));
-        list.add(new ClassBean("用UrlQuerySanitizer解析Url参数", UrlQuerySanitizerActivity.class));
-        list.add(new ClassBean("官方推荐DialogFragment创建对话框", DialogFragmentActivity.class));
+        list.add(new ClassBean("用UrlQuerySanitizer精确解析Url参数", UrlQuerySanitizerActivity.class));
+        list.add(new ClassBean("官方推荐的DialogFragment创建对话框", DialogFragmentActivity.class));
     }
 
     private void initView() {
