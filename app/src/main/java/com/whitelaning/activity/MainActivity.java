@@ -16,10 +16,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends BaseActivity {
-    private List<ClassBean> list = new ArrayList<ClassBean>();
+    private List<ClassBean> list = new ArrayList();
     private ListView listView;
     private MainAdapter mainAdapter;
-
 
     public static void startActivity(Activity activity) {
         Intent intent = new Intent(activity, MainActivity.class);
@@ -36,7 +35,7 @@ public class MainActivity extends BaseActivity {
 
     private void initData() {
         list.add(new ClassBean("TestActivity", TestActivity.class));
-        list.add(new ClassBean("Test2Activity", Test2Activity.class));
+        list.add(new ClassBean("Activity之间的数据传递", DataTransferBetween1Activity.class));
         list.add(new ClassBean("封装BaseAdapter的ViewHolder", WhiteAdapterDemoActivity.class));
         list.add(new ClassBean("用UrlQuerySanitizer精确解析Url参数", UrlQuerySanitizerActivity.class));
         list.add(new ClassBean("官方推荐的DialogFragment创建对话框", DialogFragmentActivity.class));

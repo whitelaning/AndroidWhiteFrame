@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.whitelaning.whiteframe" >
+    package="com.whitelaning.whiteframe">
 
     <application
         android:name=".application.WhiteFrame"
@@ -8,38 +8,22 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:screenOrientation="portrait"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name=".activity.StartActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity android:name="com.whitelaning.activity.MainActivity" >
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.StartActivity" />
+        <activity android:name="com.whitelaning.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.whitelaning.activity.WhiteAdapterDemoActivity"
-            android:label="@string/title_activity_white_adapter_demo" >
-        </activity>
-        <activity
-            android:name="com.whitelaning.test.TestActivity"
-            android:label="@string/title_activity_test" >
-        </activity>
-        <activity
-            android:name="com.whitelaning.activity.UrlQuerySanitizerActivity"
-            android:label="@string/title_activity_url_query_sanitizer" >
-        </activity>
-        <activity
-            android:name="com.whitelaning.activity.DialogFragmentActivity"
-            android:label="@string/title_activity_dialog_fragment" >
-        </activity>
-        <activity
-            android:name="com.whitelaning.test.Test2Activity"
-            android:label="@string/title_activity_test_activity2" >
-        </activity>
+        <activity android:name="com.whitelaning.activity.WhiteAdapterDemoActivity" />
+        <activity android:name="com.whitelaning.activity.UrlQuerySanitizerActivity" />
+        <activity android:name="com.whitelaning.activity.DialogFragmentActivity" />
+        <activity android:name="com.whitelaning.test.TestActivity" />
+        <activity android:name="com.whitelaning.test.Test2Activity" />
+        <activity android:name="com.whitelaning.activity.DataTransferBetween1Activity" />
+        <activity android:name="com.whitelaning.activity.DataTransferBetween2Activity" />
     </application>
 
 </manifest>
