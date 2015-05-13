@@ -11,7 +11,12 @@ It's very easy to be different but very difficult to be better.
 
 ####实例代码：<br>
 1.WhiteAdapterDemoActivity ： 一个ViewHolder的封装示例，把每次BaseAdapater都要写的内部类ViewHolder进行的封装，之后基本不需要写ViewHolder。(201505071032）
+2.MultithreadingBreakpointContinuinglyActivity ：
+多文件多线程断点续传下载示例。(201505131718）
 
+###2015.05.13
+####新增：
+>1. com.whitelaning.activity 中新增 MultithreadingBreakpointContinuinglyActivity类.
 
 ###2015.05.07
 ####新增:
