@@ -19,6 +19,10 @@
     <string name="title_activity_test_activity2">TestActivity2</string>
     <string name="title_activity_data_transfer_between1">DataTransferBetween1Activity</string>
     <string name="title_activity_data_transfer_between2">DataTransferBetween2Activity</string>
+    <string name="title_activity_breakpoint_continuingly">BreakpointContinuinglyActivity</string>
     <!-- title_activity End-->
+    <!-- other Start-->
+
+    <!-- other End-->
 
 </resources>

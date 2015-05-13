@@ -21,4 +21,6 @@
     <color name="black_d">#dd000000</color>
     <color name="black_e">#ee000000</color>
     <color name="black_f">#ff000000</color>
+
+    <color name="line">#ffeeeeee</color>
 </resources>

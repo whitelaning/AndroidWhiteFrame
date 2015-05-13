@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                tools:context="com.whitelaning.activity.BreakpointContinuinglyActivity">
+
+    <TextView
+        android:id="@+id/fileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Name"/>
+
+    <TextView
+        android:id="@+id/progressTextView"
+        android:layout_width="48dp"
+        android:layout_height="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/fileName"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="100%"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_below="@+id/fileName"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/progressTextView"/>
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/progressBar"
+        android:text="Stop"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:layout_toLeftOf="@+id/stopButton"
+        android:text="Start"/>
+
+</RelativeLayout>
