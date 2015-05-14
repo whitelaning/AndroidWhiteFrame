@@ -24,7 +24,7 @@ public class WhiteAdapterDemoActivity extends BaseActivity {
     public static final String TAG = "WhiteAdapterDemoActivity";
 
     private ListView listView;
-    private ArrayList<Bean> datas = new ArrayList<Bean>();
+    private ArrayList<Bean> datas = new ArrayList();
     private WhiteAdapterDemoAdapter whiteAdapterDemoAdapter;
 
     public static void startActivity(Activity activity) {

@@ -1,6 +1,7 @@
 package com.whitelaning.adapter;
 
 import android.content.Context;
+import android.widget.TextView;
 
 import com.whitelaning.whiteframe.R;
 import com.whitelaning.whiteframe.adapter.WhiteAdapter;

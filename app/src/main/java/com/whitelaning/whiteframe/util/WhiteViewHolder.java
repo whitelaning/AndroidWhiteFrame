@@ -10,13 +10,23 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/**
+ * 封装的ViewHolder
+ */
 public class WhiteViewHolder {
-    private SparseArray<View> viewList;
-    private int position;
-    private View convertView;
-    private Context context;
-    private int layoutId;
+    private SparseArray<View> viewList; //View的集合
+    private int position; //位置
+    private View convertView;//导入的布局
+    private Context context;//上下文
+    private int layoutId;//布局ID
 
+    /**
+     * WhiteViewHolder 构造函数
+     * @param context 上下文
+     * @param parent ViewGroup
+     * @param layoutId 布局ID
+     * @param position index
+     */
     private WhiteViewHolder(Context context, ViewGroup parent, int layoutId, int position) {
         this.context = context;
         this.layoutId = layoutId;
@@ -28,6 +38,15 @@ public class WhiteViewHolder {
         convertView.setTag(this);
     }
 
+    /**
+     * 获取WhiteViewHolder的实力
+     * @param context 上下文
+     * @param convertView 导入的布局View
+     * @param parent ViewGroup
+     * @param layoutId 布局ID
+     * @param position index
+     * @return WhiteViewHolder
+     */
     public static WhiteViewHolder getInstance(Context context, View convertView, ViewGroup parent, int layoutId, int position) {
         if (null == convertView) {
             return new WhiteViewHolder(context, parent, layoutId, position);
@@ -38,6 +57,12 @@ public class WhiteViewHolder {
         }
     }
 
+    /**
+     * 获取布局View
+     * @param ViewId view的ID
+     * @param <T>
+     * @return T , T extends View
+     */
     public <T extends View> T getView(int ViewId) {
         View view = viewList.get(ViewId);
         if (null == view) {
@@ -48,10 +73,20 @@ public class WhiteViewHolder {
         return (T) view;
     }
 
+    /**
+     * 返回convertView
+     * @return View
+     */
     public View getConvertView() {
         return convertView;
     }
 
+    /**
+     * 设置TextView文本
+     * @param viewId TextView的ID
+     * @param text 显示文本
+     * @return
+     */
     public WhiteViewHolder setText(int viewId, String text) {
         TextView textView = getView(viewId);
         textView.setText(text);
