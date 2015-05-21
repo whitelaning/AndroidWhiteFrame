@@ -13,6 +13,11 @@ It's very easy to be different but very difficult to be better.
 1.WhiteAdapterDemoActivity ： 一个ViewHolder的封装示例，把每次BaseAdapater都要写的内部类ViewHolder进行的封装，之后基本不需要写ViewHolder。(201505071032）
 2.MultithreadingBreakpointContinuinglyActivity ：
 多文件多线程断点续传下载示例。(201505131718）
+3.AsyncTaskActivity类 ： 一个AsyncTask异步下载的示例。（20105191659）
+
+###2015.05.21
+####新增：
+>1. com.whitelaning.activity 中新增 AsyncTaskActivity类.该类是AsyncTask的示例。
 
 ###2015.05.13
 ####新增：
