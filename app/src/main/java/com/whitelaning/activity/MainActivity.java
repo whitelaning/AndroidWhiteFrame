@@ -3,8 +3,6 @@ package com.whitelaning.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.widget.ListView;
 
 import com.whitelaning.adapter.MainAdapter;
@@ -18,7 +16,7 @@ import java.util.List;
 
 public class MainActivity extends BaseActivity {
     public static final String TAG = "MainActivity";
-    private List<ClassBean> list = new ArrayList();
+    private List<ClassBean> list = new ArrayList<>();
     private ListView listView;
     private MainAdapter mainAdapter;
 
@@ -37,6 +35,7 @@ public class MainActivity extends BaseActivity {
 
     private void initData() {
         list.add(new ClassBean("TestActivity", TestActivity.class));
+        list.add(new ClassBean("异步任务AsyncTask", AsyncTaskActivity.class));
         list.add(new ClassBean("多文件多线程断点续传下载", MultithreadingBreakpointContinuinglyActivity.class));
         list.add(new ClassBean("Activity之间的数据传递", DataTransferBetween1Activity.class));
         list.add(new ClassBean("封装BaseAdapter的ViewHolder", WhiteAdapterDemoActivity.class));
@@ -49,11 +48,4 @@ public class MainActivity extends BaseActivity {
         mainAdapter = new MainAdapter(this, R.layout.adapter_main, list);
         listView.setAdapter(mainAdapter);
     }
-
-    private Handler MainHandler = new Handler(){
-        @Override
-        public void handleMessage(Message msg) {
-            super.handleMessage(msg);
-        }
-    };
 }

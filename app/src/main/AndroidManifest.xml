@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    package="com.whitelaning.whiteframe"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.whitelaning.whiteframe" >
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name=".application.WhiteFrame"
@@ -12,29 +11,29 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:screenOrientation="portrait"
-        android:theme="@style/AppTheme">
-        <activity android:name=".activity.StartActivity"/>
-        <activity android:name="com.whitelaning.activity.MainActivity">
+        android:theme="@style/AppTheme" >
+        <activity android:name=".activity.StartActivity" />
+        <activity android:name="com.whitelaning.activity.MainActivity" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.whitelaning.test.TestActivity"/>
-        <activity android:name="com.whitelaning.test.Test2Activity"/>
-        <activity android:name="com.whitelaning.activity.WhiteAdapterDemoActivity"/>
-        <activity android:name="com.whitelaning.activity.UrlQuerySanitizerActivity"/>
-        <activity android:name="com.whitelaning.activity.DialogFragmentActivity"/>
-        <activity android:name="com.whitelaning.activity.DataTransferBetween1Activity"/>
-        <activity android:name="com.whitelaning.activity.DataTransferBetween2Activity"/>
-        <activity android:name="com.whitelaning.activity.MultithreadingBreakpointContinuinglyActivity"/>
+        <activity android:name="com.whitelaning.test.TestActivity" />
+        <activity android:name="com.whitelaning.test.Test2Activity" />
+        <activity android:name="com.whitelaning.activity.WhiteAdapterDemoActivity" />
+        <activity android:name="com.whitelaning.activity.UrlQuerySanitizerActivity" />
+        <activity android:name="com.whitelaning.activity.DialogFragmentActivity" />
+        <activity android:name="com.whitelaning.activity.DataTransferBetween1Activity" />
+        <activity android:name="com.whitelaning.activity.DataTransferBetween2Activity" />
+        <activity android:name="com.whitelaning.activity.MultithreadingBreakpointContinuinglyActivity" />
+        <activity android:name="com.whitelaning.activity.AsyncTaskActivity" />
 
         <service
             android:name="com.whitelaning.services.DownloadService"
             android:enabled="true"
-            android:exported="true"/>
-
+            android:exported="true" />
     </application>
 
 </manifest>
