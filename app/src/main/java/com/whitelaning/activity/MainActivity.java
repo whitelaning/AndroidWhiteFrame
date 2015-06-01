@@ -35,6 +35,9 @@ public class MainActivity extends BaseActivity {
 
     private void initData() {
         list.add(new ClassBean("TestActivity", TestActivity.class));
+        list.add(new ClassBean("图片填充根据描边", FillColorByStrokeActivity.class));
+        list.add(new ClassBean("图片填充根据图层", FillColorByLayerActivity.class));
+        list.add(new ClassBean("ViewPager示例", ViewPagerActivity.class));
         list.add(new ClassBean("异步任务AsyncTask", AsyncTaskActivity.class));
         list.add(new ClassBean("多文件多线程断点续传下载", MultithreadingBreakpointContinuinglyActivity.class));
         list.add(new ClassBean("Activity之间的数据传递", DataTransferBetween1Activity.class));
