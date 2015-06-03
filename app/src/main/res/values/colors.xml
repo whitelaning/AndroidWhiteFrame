@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="default_background">#fff0f0f0</color>
     <color name="transparent">#00000000</color>
     <color name="red">#ffff0000</color>
     <color name="green">#ff00ff00</color>
@@ -23,4 +24,10 @@
     <color name="black_f">#ff000000</color>
 
     <color name="line">#ffeeeeee</color>
+
+    <!-- 橙色 -->
+    <color name="button_color_orange_normal">#fe9903</color>
+    <color name="button_color_orange_enabled">#fec268</color>
+    <color name="button_color_orange_pressed">#fe8803</color>
+
 </resources>

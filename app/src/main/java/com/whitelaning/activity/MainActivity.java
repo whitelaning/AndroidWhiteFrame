@@ -35,6 +35,7 @@ public class MainActivity extends BaseActivity {
 
     private void initData() {
         list.add(new ClassBean("TestActivity", TestActivity.class));
+        list.add(new ClassBean("图灵机器人", TuringRobotActivity.class));
         list.add(new ClassBean("图片填充根据描边", FillColorByStrokeActivity.class));
         list.add(new ClassBean("图片填充根据图层", FillColorByLayerActivity.class));
         list.add(new ClassBean("ViewPager示例", ViewPagerActivity.class));

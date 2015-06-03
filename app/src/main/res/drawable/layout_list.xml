@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/layout_1"/>
+    <item android:drawable="@drawable/layout_2"/>
+    <item android:drawable="@drawable/layout_3"/>
+    <item android:drawable="@drawable/layout_4"/>
+    <item android:drawable="@drawable/layout_5"/>
+    <item android:drawable="@drawable/layout_6"/>
+    <item android:drawable="@drawable/layout_7"/>
+</layer-list>

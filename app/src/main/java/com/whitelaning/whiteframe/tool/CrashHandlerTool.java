@@ -127,7 +127,7 @@ public class CrashHandlerTool implements UncaughtExceptionHandler {
     private boolean handleException(Throwable ex) {
         if (ex == null) {
             return false;
-        } else if (!DebugCollector.ActivateDebugMode) {
+        } else if (DebugCollector.ActivateDebugMode) {
             return false;
         } else {
             collectDeviceInfo(mContext);

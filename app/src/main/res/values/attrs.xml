@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FillColorImagerView">
+        <attr name="border_color" format="color|reference">#00000000</attr>
+    </declare-styleable>
+</resources>

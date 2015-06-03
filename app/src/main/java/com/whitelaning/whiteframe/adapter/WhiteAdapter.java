@@ -7,8 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.whitelaning.whiteframe.bean.Bean;
-import com.whitelaning.whiteframe.tool.LogTool;
 import com.whitelaning.whiteframe.util.WhiteViewHolder;
 
 import java.util.List;
@@ -16,12 +14,18 @@ import java.util.List;
 //声明属性为protected是为了子类可以访问
 public abstract class WhiteAdapter<T> extends BaseAdapter {
 
-    public static final String TAG = "WhiteAdapter";
+    private static final String TAG = "WhiteAdapter";
     protected List<T> list;//数据列表
     protected Context context;//上下文
     protected LayoutInflater layoutInflater;//布局填充器
     protected int layoutId;//布局Id
     protected Handler handler;
+
+    public WhiteAdapter(Context context, List<T> list) {
+        this.context = context;
+        this.list = list;
+        layoutInflater = LayoutInflater.from(context);//获取布局填充器实例
+    }
 
     /**
      * WhiteAdapter的构造函数，在这里初始化各项属性值

@@ -9,18 +9,28 @@ It's very easy to be different but very difficult to be better.
 这是我的结构框架
 用于记录我的工具类和示例代码
 
-####实例代码：<br>
-1.WhiteAdapterDemoActivity ： 一个ViewHolder的封装示例，把每次BaseAdapater都要写的内部类ViewHolder进行的封装，之后基本不需要写ViewHolder。(201505071032）
-2.MultithreadingBreakpointContinuinglyActivity ：
-多文件多线程断点续传下载示例。(201505131718）
-3.AsyncTaskActivity类 ： 一个AsyncTask异步下载的示例。（20105191659）
+####实例代码:<br>
+1.WhiteAdapterDemoActivity : 一个ViewHolder的封装示例，把每次BaseAdapater都要写的内部类ViewHolder进行的封装，之后基本不需要写ViewHolder。(201505071032）
+2.MultithreadingBreakpointContinuinglyActivity : 多文件多线程断点续传下载示例。(201505131718）
+3.AsyncTaskActivity : 一个AsyncTask异步下载的示例。（20105191659）
+4.ViewPagerActivity : 一个ViewPager引导界面的示例。（20106031048）
+5.FillColorByLayerActivity : 基于图层填充颜色的示例。（感谢zhy）（20106031048）
+6.FillColorByStrokeActivity : 基于描边填充颜色的示例。（感谢zhy）（20106031048）
+7.TuringRobotActivity : 基于图灵机器人API的聊天示例。（20106031048）
 
 ###2015.05.21
-####新增：
+####新增:
+>1. com.whitelaning.activity 中新增 ViewPagerActivity.
+>2. com.whitelaning.activity 中新增 FillColorByLayerActivity.
+>3. com.whitelaning.activity 中新增 FillColorByStrokeActivity.
+>4. com.whitelaning.activity 中新增 TuringRobotActivity.
+
+###2015.05.21
+####新增:
 >1. com.whitelaning.activity 中新增 AsyncTaskActivity类.该类是AsyncTask的示例。
 
 ###2015.05.13
-####新增：
+####新增:
 >1. com.whitelaning.activity 中新增 MultithreadingBreakpointContinuinglyActivity类.
 
 ###2015.05.07
@@ -33,7 +43,7 @@ It's very easy to be different but very difficult to be better.
 >6. com.whitelaning.whiteframe.control 中新增 PathAddressCollector类，该类用于统一控制路径的设置。<br><br>
 
 ###2015.05.05
-####新增：
+####新增:
 >1.whiteframe包中新增BaseActivity类，其它Activity继承该类，进行Activity的启动、退出动画的初始化。<br>
 >2.whiteframe包中新增ActivityCollector类，在BaseActivity类中添加了该类的方法，便于对整体Activity的管理。<br>
 >3.whiteframe包中新增ToastViewTool类，该类为自定义Toast方法，便于显示Toast信息。<br>

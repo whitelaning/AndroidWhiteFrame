@@ -12,7 +12,12 @@
         android:label="@string/app_name"
         android:screenOrientation="portrait"
         android:theme="@style/AppTheme" >
-        <activity android:name=".activity.StartActivity" />
+
+        <service
+            android:name="com.whitelaning.services.DownloadService"
+            android:enabled="true"
+            android:exported="true" />
+
         <activity android:name="com.whitelaning.activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.StartActivity" />
         <activity android:name="com.whitelaning.test.TestActivity" />
         <activity android:name="com.whitelaning.test.Test2Activity" />
         <activity android:name="com.whitelaning.activity.WhiteAdapterDemoActivity" />
@@ -29,11 +35,10 @@
         <activity android:name="com.whitelaning.activity.DataTransferBetween2Activity" />
         <activity android:name="com.whitelaning.activity.MultithreadingBreakpointContinuinglyActivity" />
         <activity android:name="com.whitelaning.activity.AsyncTaskActivity" />
-
-        <service
-            android:name="com.whitelaning.services.DownloadService"
-            android:enabled="true"
-            android:exported="true" />
+        <activity android:name="com.whitelaning.activity.ViewPagerActivity" />
+        <activity android:name="com.whitelaning.activity.FillColorByStrokeActivity" />
+        <activity android:name="com.whitelaning.activity.FillColorByLayerActivity" />
+        <activity android:name="com.whitelaning.activity.TuringRobotActivity" />
     </application>
 
 </manifest>

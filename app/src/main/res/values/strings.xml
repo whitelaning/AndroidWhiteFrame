@@ -8,20 +8,8 @@
     <string name="cancel">Cancel</string>
     <string name="ensure">Ensure</string>
     <string name="tips">Tips</string>
+    <string name="title_activity_turing_robot">TuringRobotActivity</string>
     <!--  DialogView End-->
-    <!-- title_activity Start-->
-    <string name="title_activity_white_adapter_demo">WhiteAdapterDemoActivity</string>
-    <string name="title_activity_list_view">ListViewActivity</string>
-    <string name="title_activity_test">TestActivity</string>
-    <string name="title_activity_url_query_sanitizer">UrlQuerySanitizerActivity</string>
-    <string name="title_activity_dialog_fragment">DialogFragmentActivity</string>
-    <string name="title_activity_base_presenter">BasePresenterActivity</string>
-    <string name="title_activity_test_activity2">TestActivity2</string>
-    <string name="title_activity_data_transfer_between1">DataTransferBetween1Activity</string>
-    <string name="title_activity_data_transfer_between2">DataTransferBetween2Activity</string>
-    <string name="title_activity_breakpoint_continuingly">BreakpointContinuinglyActivity</string>
-    <string name="title_activity_async_task">AsyncTaskActivity</string>
-    <!-- title_activity End-->
     <!-- other Start-->
 
     <!-- other End-->
